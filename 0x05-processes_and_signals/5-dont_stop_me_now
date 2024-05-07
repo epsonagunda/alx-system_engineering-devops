@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#Bash script that stops 4-to_infinity_and_beyond process
+#using ctrl+c
+#You must use kill
+
+kill "$(ps -x | pgrep -f beyond)"
