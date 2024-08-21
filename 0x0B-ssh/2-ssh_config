@@ -1,4 +1,3 @@
-# Configure ssh client so that you can connect to a server without typing a password.
 Host *
     SendEnv LANG LC_*
     HashKnownHosts yes
